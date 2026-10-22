@@ -1,0 +1,33 @@
+architecture.md
+  s_073669e3606d79::t_aaee251e7422f3 244
+config/base/kustomization.yaml
+  s_073669e3606d79::t_c6c91853640223 144-159,332-347,364-379,737-758,973-988,1005-1020
+config/base/params.env
+  s_073669e3606d79::t_7967db369242e3 36-41
+config/runtimes-fast-1/kustomization.yaml
+  s_073669e3606d79::t_184cc8e6ed3a6e 50-54
+config/runtimes-fast-2/kustomization.yaml
+  s_073669e3606d79::t_7ad210d2074753 50-54
+config/runtimes/vllm/csr-kserve-vllm-rbln.yaml
+  s_073669e3606d79::t_87e2e540d96aa4 1-58
+config/runtimes/vllm/kustomization.yaml
+  s_073669e3606d79::t_c09577191fdd05 7,17
+config/runtimes/vllm/vllm-rbln-template.yaml
+  s_073669e3606d79::t_acae4d97c78d51 1-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "15a62e2dffb72fc14258dc68ee897ba80ebd3d5f",
+  "prompts": {},
+  "sessions": {
+    "s_073669e3606d79": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "48a2d7da-4547-4c3c-a1e1-eaece1d8f830",
+        "model": "unknown"
+      },
+      "human_author": "rebel-jinmoo <jinmoo_seok@rebellions.ai>"
+    }
+  }
+}
